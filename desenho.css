@@ -1,0 +1,163 @@
+main {
+    margin-top: 0rem;
+}
+
+.desenho_h2 {
+    color: #606c38ff;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#foto4,
+#foto5 {
+    scroll-margin: 2em;
+}
+
+.desenho_img img {
+    width: 30rem;
+    margin-right: 2rem;
+}
+
+.desenho_geral {
+
+    padding: 0.5rem;
+    padding-top: 2;
+    padding-bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 0rem;
+}
+
+.desenho_td {
+
+    display: flex;
+
+    margin-top: 2rem;
+}
+
+.desenho_p {
+    padding-left: 1rem;
+    padding-top: 0%;
+    margin-top: 0;
+    font-weight: 300;
+    align-content: center;
+}
+
+@media (max-width: 750px) {
+    nav {
+        text-align: left;
+    }
+
+    main {
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    nav li {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: block;
+    }
+
+    .desenho_td {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .desenho_p {
+        padding-left: 0rem;
+        align-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .desenho_img img {
+        margin-bottom: 1rem;
+        width: 100%;
+
+    }
+
+    .desenho_img img {
+        width: 100%;
+        margin-right: 2rem;
+    }
+
+    .desenho_geral {
+
+        padding: 0.5rem;
+        padding-top: 2;
+        padding-bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    main {
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    .desenho_td {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .desenho_p {
+        padding-left: 0rem;
+        align-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .desenho_img img {
+        margin-bottom: 1rem;
+        width: 100%;
+
+    }
+
+    .desenho_img img {
+        width: 100%;
+        margin-right: 2rem;
+    }
+
+    .desenho_geral {
+
+        padding: 0.5rem;
+        padding-top: 2;
+        padding-bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
